@@ -13,15 +13,6 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
 
-// function Tabs(){
-//   return(
-//     <Tab.Navigator>
-//       <Tab.Screen name="AppContacts" component="{AppContacts}"/>
-//       <Tab.Screen name="Contacts" component="{Contacts}"/>
-//     </Tab.Navigator>
-//   )
-// }
-
 function Tabs() {
   return(
     <Tab.Navigator >
