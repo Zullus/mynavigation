@@ -6,7 +6,6 @@ import Contacts from './src/pages/Contacts';
 import Information from './src/pages/Informations';
 
 //Com Stack Navigation
-
 import { createStackNavigator } from '@react-navigation/stack'
 const Stack = createStackNavigator();
 
