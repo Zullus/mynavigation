@@ -5,25 +5,26 @@ import { NavigationContainer } from '@react-navigation/native'
 import Contacts from './src/pages/Contacts';
 import Information from './src/pages/Informations';
 
-//Com Drawer Navigation
-import { createDrawerNavigator } from '@react-navigation/drawer'
-const Drawer = createDrawerNavigator();
+//Com Stack Navigation
+
+import { createStackNavigator } from '@react-navigation/stack'
+const Stack = createStackNavigator();
 
 export default function App() {
   return (
    <NavigationContainer>
-     <Drawer.Navigator >{/* DICA */}
-       <Drawer.Screen 
+     <Stack.Navigator >{/* DICA */}
+       <Stack.Screen 
         name="Contacts" 
         component={Contacts}
 
       />
-       <Drawer.Screen 
+       <Stack.Screen 
         name="Information" 
         component={Information}
 
         />
-     </Drawer.Navigator>
+     </Stack.Navigator>
    </NavigationContainer>
   );
 }

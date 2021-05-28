@@ -17,3 +17,4 @@ expo install react-native-gesture-handler react-native-reanimated react-native-s
 ## Branchs
 
 * Navegação com Drawer
+* Navegação com StackNavigation 
